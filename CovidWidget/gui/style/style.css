@@ -1,0 +1,22 @@
+* {
+	/* background */
+	-fx-base: #7f7e81;
+	/* font */
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Chicago', 'Helvetica', 'Futura', Arial;
+}
+
+.top-label {
+	-fx-font-weight: bold;
+	-fx-font-size: 18pt;
+}
+
+.content {
+	-fx-font-size: 14pt;
+}
+
+.context-menu {
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 12pt;
+	-fx-background-color: derive(-fx-base, 20%)
+}
